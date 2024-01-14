@@ -7,7 +7,7 @@ This repository contains the Jupyter notebook and associated files for a project
 The heart of this project is the Jupyter notebook titled `GraphRepresentationLearning_1084529.ipynb`. It includes comprehensive code and explanations, detailing our experiments, findings, and methodologies.
 
 ## Dataset
-The project utilizes a reconstructed version of the EXP dataset, adapted to be compatible with the latest updates in Torch Geometric. The dataset is available in pickle and .pt formats and can be found inside the folder Co-GNN. Some results of our models training are stored at the file `arrays.pkl`. The final accuracies are caclulated as the mean of the last 20 epochs of testing. Like this we can have a better idea of how expressive is the net at the end of the learning.
+The project utilizes a reconstructed version of the EXP dataset, adapted to be compatible with the latest updates in Torch Geometric. The dataset is available in pickle and .pt formats and can be found inside the folder Co-GNN. Some results of our models training are stored at the file `arrays.pkl`. The final accuracies are calculated as the mean of the last 20 epochs of testing. Like this we can have a better idea of how expressive is the net at the end of the learning.
 
 ## Additional Resources
 - `Co-GNN`: Folder containing additional scripts or resources related to the Cooperative Graph Neural Networks. It is fully based on this repository: https://anonymous.4open.science/r/CoGNN. There are functions and arguments we have changed just to adapt the code to our experiments.
